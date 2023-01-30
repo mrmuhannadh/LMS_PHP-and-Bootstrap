@@ -1,0 +1,146 @@
+td {
+    transition: all 200ms;
+}
+
+.tbody1:hover td {
+    color: transparent;
+    text-shadow: 0 0 5px #fff;
+}
+
+.tbody1:hover tr:hover td {
+    color: #fff;
+    text-shadow: 0 1px 0 #fff;
+}
+.tbl1{
+    width:100%;
+    margin-top:25;
+    border-collapse: collapse;
+    text-align: center;
+}
+#tr1{
+    border-bottom: 1px solid #cbcbcb;
+    color:black;
+}
+#tr2{
+    border-bottom: 1px solid #cbcbcb;
+    color:white;
+    font-weight:bold;
+}
+#th1{
+    color:white;
+}
+th,td{
+    border:none;
+    height: 40px;
+    padding: 5px;
+}
+#td1{
+    padding-left:30px;
+}
+#td2{
+    padding-left:30px;
+    padding-top:25px;
+}
+#tr1:hover{
+    background: rgba(0,0,0, 0.4); 
+    color:white;
+}
+#tr2:hover{
+    background: none;
+}
+input{
+    border-radius: 5px;
+}
+.btn{
+    background: #5F9EA0;
+    border-radius: 5px;
+    color: white;
+    margin-top:10px;
+    }
+.btn2{
+    background: red;
+    border-radius: 5px;
+    color: white;
+    margin-top:10px;
+    padding:10px;
+    border-radius: 10px;
+    border: 1px solid maroon;
+    }
+a:link{
+    color: black;
+    text-decoration:none;
+}
+a:visited{
+    color: black;
+    text-decoration:none;
+}
+a:active{
+    color: red;
+    text-decoration:none;
+}
+.fmuser{
+    width:420px;
+    height: auto;
+    margin: 50px auto;
+    text-align: left;
+    padding: 50px;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+}
+.fmuser2{
+    width:430px ;
+    height: 350px;
+    margin: 50px auto;
+    text-align: left;
+    padding-left: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+}
+#displayProfile{
+    border-radius:150px;
+}
+.msg{
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 5px;
+    color: antiquewhite;
+    background: DarkSlateGrey;
+    border: 1px;
+    width:50%;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.tsta{
+    margin-top:40px;
+    margin-left:40px;
+    border-radius:10px;
+    border: 1px solid #000;
+}  
+p{
+    overflow:hidden;
+    display:nonel;
+}
+.accordion label{
+    display:block;
+}
+.accordion p{
+    padding : 20px;
+    visibility: hidden;
+    opacity:0;
+    display:none;
+}
+#accordion1:checked ~ .para{
+    display:block;
+    opacity:1;
+    visibility: visible;
+}
+#accordion1{
+    display:none;
+    position:realtive;
+}
+.tbl1 .trtop{
+    background:  rgba(0,0,0, 0.7);
+}
